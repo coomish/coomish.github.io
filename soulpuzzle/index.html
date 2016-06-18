@@ -20,19 +20,13 @@
     <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar bar1"></span>
-        <span class="icon-bar bar2"></span>
-        <span class="icon-bar bar3"></span>
-      </button>
       <a href="#">
                    <div class="logo-container">
                         <div class="logo">
                             <!-- you logо img -->
                         </div>
                         <div class="brand">
-                            SoulPuzzle
+                            <i class="fa fa-puzzle-piece"></i> SoulPuzzle
                         </div>
                     </div>
               </a>
@@ -43,23 +37,13 @@
         <ul class="nav navbar-nav navbar-right">
             <li>
                 <a href="#">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    About
+                    Contact Us
                 </a>
             </li>
 
             <li>
                 <a href="#">
                     <i class="fa fa-facebook-square"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-twitter"></i>
                 </a>
             </li>
             <li>
@@ -89,18 +73,20 @@
                         <br>
                         <h5>Stay connected and be part of eachothers life and create the story of your love.</h5>
                     </div>
+										<!-- Button trigger modal -->
+
                     <div class="buttons">
-                        <a href="http://codedesign.elkind.net/themes/bootstrap-theme-basic-app/">
-                            <button class="btn btn-neutral btn-lg">
-                            	Join Beta
-                            </button>
-                        </a>
-                        <a href="http://codedesign.elkind.net/themes/bootstrap-theme-basic-app/">
+
+                        <button class="btn btn-neutral btn-lg" data-toggle="modal" data-target="#betaSignup">
+                        	Join Beta
+                        </button>
+
+                        <a>
                             <button class="btn btn-simple btn-neutral">
                                 <i class="fa fa-lg fa-apple"></i>
                             </button>
                         </a>
-                        <a href="http://codedesign.elkind.net/themes/bootstrap-theme-basic-app/">
+                        <a>
                             <button class="btn btn-simple btn-neutral">
                                 <i class="fa fa-lg fa-android"></i>
                             </button>
@@ -178,7 +164,9 @@
                     <p>
 											Record a 5 second Video and send a moment of love to your partner. Stay close no matter how many cities or countries lay between you.
 										</p>
-                    <a href="codedesign.elkind.net/themes/bootstrap-theme-basic-app/" id="Demo" class="btn btn-lg btn-info btn-fill" data-button="info">Get Free Demo</a>
+										<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#betaSignup">
+											Join Beta
+										</button>
                 </div>
             </div>
         </div>
@@ -276,7 +264,9 @@
             <div class="info">
                 <h1>Begin to Record Your Story Today!</h1>
                 <p>Join the Beta and get early access to SoulPuzzle.</p>
-                <a href="codedesign.elkind.net/themes/bootstrap-theme-basic-app/" class="btn btn-neutral btn-lg">Join Beta</a>
+								<button class="btn btn-neutral btn-lg" data-toggle="modal" data-target="#betaSignup">
+									Join Beta
+								</button>
             </div>
         </div>
     </div>
@@ -285,18 +275,11 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Connect with us</h2>
-                <p>Feel free to cont</p>
+                <h2>Follow us on Instagram</h2>
                 <ul class="list-inline banner-social-buttons">
 
                     <li>
-                        <a href="https://twitter.com/robin_hirt" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/robin_hirt" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="mailto:#" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">GMAIL</span></a>
+                        <a href="https://www.instagram.com/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
 
                 </ul>
@@ -311,14 +294,36 @@
                 &copy; 2016 <a href="#">SoulPuzzle</a> - built with <i class="fa fa-heart"></i>
             </nav>
             <div class="social-area pull-right">
-                <a href="https://github.com/elkindnet" class="btn btn-social btn-simple"><i class="fa fa-github-alt fa-fw"></i> <span class="network-name"></span></a>
-                <a href="https://twitter.com/jenyelkind" class="btn btn-social btn-simple"><i class="fa fa-twitter fa-fw"></i> <span class="network-name"></span></a>
-                <a href="https://www.facebook.com/jenyelkind" class="btn btn-social btn-simple"><i class="fa fa-facebook fa-fw"></i> <span class="network-name"></span></a>
-                <a href="mailto:elkind@elkind.net" class="btn btn-social btn-simple"><i class="fa fa-envelope fa-fw"></i> <span class="network-name"></span></a>
-                <a href="https://plus.google.com/+JenyElkind/" class="btn btn-social btn-simple"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name"></span></a>
+                <a href="mailto:#" class="btn btn-social btn-simple"><i class="fa fa-envelope fa-fw"></i> <span class="network-name"></span></a>
+                <a href="https://instagram.com" class="btn btn-social btn-simple"><i class="fa fa-instagram fa-fw"></i> <span class="network-name"></span></a>
             </div>
         </div>
         </footer>
+				<!-- Modal -->
+				<div class="modal fade" id="betaSignup" tabindex="-1" role="dialog" aria-labelledby="betaSignupLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="betaSignupLabel">Join our free Beta!</h4>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label for="exampleInputEmail1">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									</div>
+
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary" type="submit" data-dismiss="modal">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
 </body>
     <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
 	<script src="js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
