@@ -130,7 +130,7 @@ header.masthead-sec {
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
+      /*font-style: italic;*/
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -147,7 +147,7 @@ header.masthead {
   color: white;
   background: linear-gradient(
                      rgba(9, 28, 62, .5),
-                     rgba(9, 28, 62, .2)),
+                     rgba(9, 28, 62, .8)),
                      url("../img/bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -161,7 +161,7 @@ header.masthead {
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
+      /*font-style: italic;*/
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -178,9 +178,9 @@ header.masthead {
     padding-top: 300px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
-      line-height: 40px;
+      font-size: 25px;
+      /*font-style: italic;*/
+      line-height: 30px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
@@ -195,9 +195,9 @@ header.masthead {
       padding-top: 120px;
       padding-bottom: 70px; }
       header.masthead-sec .intro-text .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+        font-size: 25px;
+        /*font-style: italic;*/
+        line-height: 30px;
         margin-bottom: 25px;
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
       header.masthead-sec .intro-text .intro-heading {
